@@ -1,0 +1,197 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.NavigationBar{
+	position: relative;
+	background-color: #0040ff;
+	padding: 10px;
+}
+.NavigationBar a{
+	color: ffffff;
+	text-decoration: none;
+	margin-right: 10px;
+}
+.Logo{
+	float:left
+}
+.Nav{
+	text-align: right;
+}
+.advert{
+	background-image:url(images/Deadpool1.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:scroll;
+	height: 90vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin:10px 0;
+	animation: bacground 30s infinite;
+}
+@keyframes bacground{
+	0%{
+		background-image:url(images/Deadpool1.jpg);
+		background-repeat:no-repeat;
+		background-size:cover;
+		background-attachment:scroll;
+	}
+	25%{
+		background-image:url(images/Deadpool1.jpg);
+		background-repeat:no-repeat;
+		background-size:cover;
+		background-attachment:scroll;
+	}
+	50%{
+		background-image:url(images/Deadpool2.jpg);
+		background-repeat:no-repeat;
+		background-size:cover;
+		background-attachment:scroll;
+	}
+	75%{
+		background-image:url(images/Deadpool3.jpg);
+		background-repeat:no-repeat;
+		background-size:cover;
+		background-attachment:scroll;
+	}
+	100%{
+		background-image:url(images/Deadpool4.jpg);
+		background-repeat:no-repeat;
+		background-size:cover;
+		background-attachment:scroll;
+	}
+}
+.advert h1{
+	font-size:2cm;
+	text-shadow: 0 0 15px black ;
+	text-align: center;
+	color: ffffff;
+}
+.hyperlinks{
+	padding: 0 10px 10px 10px;
+	text-align: center;
+	border: double;
+	margin: 10px;
+}
+.hyperlinks h2{
+	text-decoration: underline;
+}
+.hyperlinks ul{
+	display:flex;
+	justify-content: space-between;
+	margin: 20px 20px 0 20px;
+	font-weight: bolder;
+	font-size: .8cm;
+}
+.hyperlinks ul a{
+	text-decoration: none;
+	color: #222;
+}
+.Container{
+	padding: 10px;
+}
+.Container h2{
+	background-color: 000000;
+	color: ffffff;
+	padding: 5px 10px;
+	text-align: center;
+}
+.Container .trailers{
+	margin-top: 10px;
+	display: flex;
+	justify-content: space-between;
+	gap: 10px;
+}
+.Action{
+	padding: 10px;
+}
+.Action .trailers{
+	margin-top: 10px;
+	display: flex;
+	justify-content: space-between;
+	gap: 10px;
+}
+.trailers div{
+	width: 32%;
+}
+.trailers img{
+	width: 100%;
+	height: 100%;
+}
+.trailers img:hover{ 
+	border: 3px solid grey;
+}
+.Comment{
+	padding: 10px;
+}
+table{
+	margin: 10px;
+	width: 98%;
+	text-align: center;
+	color: white;
+}
+thead, tfoot, tbody{
+	background-color: black;
+}
+footer{
+	background-color: 0000ff;
+	color: ffffff;
+	text-align: center;
+	padding: 10px;
+}
+
+.aboutus{
+	min-height:90vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+}
+.aboutus h2{
+	position: absolute;
+	top: 20px;
+}
+.aboutus p{
+	margin-bottom:20px;
+}
+.aboutus img{
+	max-height: 400px;
+}
+.sign{
+	height: 80vh;
+	display: flex;
+	justify-content: center;
+	align-items:center;
+	flex-direction: column;
+}
+.sign form{
+	border-radius: 5px;
+	padding: 10px 20px;
+	border:3px double black;
+}
+.sign p{
+margin:10px 0
+}
+
+.m{
+	background-color: #0000ff;
+	padding: 10px;
+	color: ffffff;
+}
+
+.ratings{
+	display: flex;
+	justify-content: space-between;
+}
+
+.GroupF{
+	height: 90vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-shadow: 0 0 2px black;
+}
